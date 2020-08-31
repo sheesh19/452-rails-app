@@ -10,6 +10,12 @@
   </head>
 
   <body>
+    <div class="nav">
+      <h6>Rails APP</h6>
+      <%= link_to "Home", root_path %>
+      <%= link_to "About", about_path %>
+      <%= link_to "Contact Us", contact_path %>
+    </div>
     <%= yield %>
   </body>
 </html>
